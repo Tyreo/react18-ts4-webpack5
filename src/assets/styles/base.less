@@ -1,0 +1,80 @@
+@import '@/assets/styles/variable.less';
+@import '@/assets/styles/mixin.less';
+@import '@/assets/styles/media.less';
+
+* {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+html {
+  line-height: 1;
+}
+
+input,
+image,
+textarea {
+  user-select: auto;
+}
+
+body {
+  background-color: @white;
+  overflow: auto;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-overflow-scrolling: touch;
+}
+
+#app {
+  height: 100%;
+}
+
+:global(.ellipsis-1) {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+:global(.ellipsis-2,
+.ellipsis-3,
+.ellipsis-4,
+.ellipsis-5,
+.ellipsis-6,
+.ellipsis-10) {
+  text-overflow: -o-ellipsis-lastline;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  /*! autoprefixer: off */
+  -webkit-box-orient: vertical;
+}
+
+:global(.ellipsis-2 ){
+  -webkit-line-clamp: 2;
+}
+
+:global(.ellipsis-3) {
+  -webkit-line-clamp: 3;
+}
+
+:global(.ellipsis-4) {
+  -webkit-line-clamp: 4;
+}
+
+:global(.ellipsis-5) {
+  -webkit-line-clamp: 5;
+}
+
+:global(.ellipsis-6) {
+  -webkit-line-clamp: 6;
+}
+
+:global(.ellipsis-10) {
+  -webkit-line-clamp: 10;
+}
+
+body {
+  -webkit-overflow-scrolling: touch;
+}

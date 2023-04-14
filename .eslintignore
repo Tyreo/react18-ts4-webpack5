@@ -1,0 +1,13 @@
+node_modules
+dist
+env
+.gitignore
+pnpm-lock.yaml
+README.md
+src/assets/*
+.vscode
+public
+.github
+.husky
+*.js
+*.jsx
