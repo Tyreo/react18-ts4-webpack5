@@ -1,7 +1,7 @@
 {
-  "name": "more-common-web",
+  "name": "react18-ts4-webpack5",
   "version": "1.0.0",
-  "description": "common页面",
+  "description": "react18-ts4-webpack5",
   "main": "index.js",
   "scripts": {
     "dev": "cross-env NODE_ENV=development BASE_ENV=development webpack serve -c build/webpack.dev.ts",
